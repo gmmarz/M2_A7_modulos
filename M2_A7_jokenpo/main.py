@@ -5,6 +5,11 @@ import random
 #Atalho - ctrl + espaço - o VS Code mostrará as funções dentro do arquivo jogo.
 #é possível também trazer todos os arquivos.
 from jogo import *
+from Utilidades.calculo import triplica
+# from Utilidades import calculo
+
+# num = triplica(3)
+# print(num)
 
 
 opcoes = ("pedra", "papel", "tesoura")

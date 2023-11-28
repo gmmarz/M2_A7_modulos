@@ -1,0 +1,24 @@
+para verificar o nome do arquivo: 
+__name__
+
+se for o arquivo que está sendo executado, o nome será __main__
+
+para impedir que um módulo seja executado diretamente:
+
+if __name__ == "__main__":
+	print('Este é um modulo não deve ser executado diretamente')
+
+Boas praticas
+
+colocar na sua função principal 
+uma função init
+
+def init():
+	pass # passar a função desejada
+
+
+if __name__ == '_main__':
+	init()
+
+dessa forma será executado apenas se ele o arquivo for chamado diretamente.
+
